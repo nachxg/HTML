@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de formulario!!!!!</title>
+</head>
+<body>
+    <h2><u>FORMULARIO</u></h2>
+    <form action="https://formsubmit.co/nachogxyz@gmail.com" method="POST" enctype="text/plain">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="_replyto" size="20" maxlength="50" minlength="1" placeholder="Ingrese su nombre...">
+        <br><br>
+        <label for="numero">Edad:</label>
+        <input type="number" id="numero" name="numero" maxlength="2" placeholder="Ingrese su edad...">
+        <br><br>
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Correo">
+        <br><br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
+        <br><br>
+        <label for="areaTexto">Comentarios:</label><br>
+        <textarea id="areaTexto" name="areaTexto" cols="30" rows="10" placeholder="Escriba aquí sus comentarios..."></textarea>
+        <br><br>
+        <label for="provincia">Seleccione su provincia: </label>
+        <select name="provincia" id="provincia"> <!-- size="" multiple -->
+            <option value="buenos_aires">Buenos Aires</option>
+            <option value="catamarca">Catamarca</option>
+            <option value="chaco">Chaco</option>
+            <option value="chubut">Chubut</option>
+            <option selected value="cordoba">Córdoba</option>
+            <option value="corrientes">Corrientes</option>
+            <option value="entre_rios">Entre Ríos</option>
+            <option value="formosa">Formosa</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="la_pampa">La Pampa</option>
+            <option value="la_rioja">La Rioja</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="misiones">Misiones</option>
+            <option value="neuquen">Neuquén</option>
+            <option value="rio_negro">Río Negro</option>
+            <option value="salta">Salta</option>
+            <option value="san_juan">San Juan</option>
+            <option value="san_luis">San Luis</option>
+            <option value="santa_cruz">Santa Cruz</option>
+            <option value="santa_fe">Santa Fe</option>
+            <option value="santiago_del_estero">Santiago del Estero</option>
+            <option value="tierra_del_fuego">Tierra del Fuego</option>
+            <option value="tucuman">Tucumán</option>
+        </select>
+        <br><br>
+        <p>Sexo:</p>
+        <input type="radio" id="hombre" name="sexo" value="Hombre">
+        <label for="hombre">Hombre</label> <br>
+        <input type="radio" id="mujer" name="sexo" value="Mujer">
+        <label for="mujer">Mujer</label> <br>
+        <p>Seleccione su estado civil:</p>
+        <input type="radio" id="casado" name="estadoCivil" value="1">
+        <label for="casado">Casado</label> <br>
+        <input type="radio" id="soltero" name="estadoCivil" value="2">
+        <label for="soltero">Soltero</label> <br>
+        <input type="radio" id="divorciado" name="estadoCivil" value="3">
+        <label for="divorciado">Divorciado</label>
+        <br>
+        <p>¿Está de acuerdo con los términos y condiciones?</p>
+        <input type="radio" name="tyc" id="tycSi" value="1">
+        <label for="tycSi">Sí</label>
+        <input type="radio" name="tyc" id="tycNo" value="2">
+        <label for="tycNo">No</label>
+        <p>Seleccione todos los niveles de estudio que posee: </p>
+        <input type="checkbox" name="estudios" id="primario">
+        <label for="primario">Primario</label><br>
+        <input type="checkbox" name="estudios" id="secundario">
+        <label for="secundario">Secundario</label><br>
+        <input type="checkbox" name="estudios" id="terciario">
+        <label for="terciario">Terciario</label><br>
+        <input type="checkbox" name="estudios" id="universitario">
+        <label for="universitario">Universitario</label><br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        <button type="button">Este no hace nada</button>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Formulario.html">
+        <input type="hidden" name="_captcha" value="false">     
+
+    </form>
+</body>
+</html>

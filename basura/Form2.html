@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+
+    <form action="https://formsubmit.co/nachogxyz@gmail.com" method="post">
+        <label for="usuario">Nombre de usuario:</label> <br>
+        <input type="text" id="usuario" placeholder="Escriba aquí su usuario" style="width: 200px; height: 20px" name="Usuario"><br><br>
+        <label for="contra">Contraseña de usuario:</label> <br>
+        <input type="password" id="contra" placeholder="Escriba aquí su contraseña" style="width: 200px; height: 20px" name="Contraseña"> <br><br>
+        <label for="edad">Edad de usuario:</label> <br>
+        <input type="number" id="edad" placeholder="Escriba aquí su edad" style="width: 200px; height: 20px" name="Edad"> <br><br>
+        <label >Rango de edad:</label><br>
+        <select id="edd" style="width: 210px; height: 29px" name="Rango Edad">
+            <option value="Menor de 18 años">Menor de 18 años</option>
+            <option value="Entre 18 y 25 años">Entre 18 y 25 años</option>
+            <option value="Entre 26 y 35 años">Entre 26 y 35 años</option>
+            <option value="Entre 36 y 50 años">Entre 36 y 50 años</option>
+            <option value="Mayor a 50 años"> Mayor a 50 años</option>
+        </select> <br><br>
+        <label for="fechaNac">Fecha de nacimiento:</label> <br>
+        <input type="date" id="fechaNac" style="width: 205px; height: 28px" name="Fecha Nacimiento"> <br><br>
+        <label>Seleccione su sexo:</label> <br>
+        <input type="radio" id="hombre" name="Sexo" value="Hombre"> <label for="hombre">Hombre</label> <br>
+        <input type="radio" id="mujer" name="Sexo" value="Mujer"> <label for="mujer">Mujer</label> <br>
+        <input type="radio" id="otro" name="Sexo" value="Otro"> <label for="otro">Otro</label> <br><br>
+        <label for="pais">Seleccione su país:</label> <br>
+        <select id="pais" style="width: 205px" size="3" multiple name="Pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Otro">Otro</option>
+        </select> <br><br>
+
+        <textarea name="observ" id="observ" cols="24" rows="10" name="Observaciones">Observaciones:</textarea>
+        
+        <button type="submit" style="width: 100px; height: 29px">Enviar</button>
+        <button type="reset" style="width: 100px; height: 29px">Borrar</button>
+
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/basura/Form2.html">
+        <input type="hidden" name="_captcha" value="false">
+                
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+table {
+margin: 5px;
+text-align: center;
+}
+
+th {
+    padding: 5px;
+    background-color: rgb(227, 227, 227);
+}
+
+.row {
+
+    background-color: rgb(225, 255, 142);
+}
+

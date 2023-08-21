@@ -1,0 +1,116 @@
+.fondo {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Work Sans';
+    color: white;
+}
+
+.titulo {
+    font-size: 35px;
+    font-style: italic;
+    color: yellow;
+}
+
+.cuerpa {
+    padding: 0px;
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.cursos {
+    margin: 10px;
+    width: 900px;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.curso {
+    height: 480px;
+    width: 205px;
+    margin: 8px;
+    font-family: 'Work Sans';
+    border: 1px solid rgb(27, 27, 27);
+    color: white;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+}
+
+.card-text {
+    margin-top: auto;
+}
+
+.aprende {
+    font-weight: bold;
+    background-color: yellow;
+    margin-top: auto;
+}
+
+.tarjetas {
+    width: 400px;
+    overflow: hidden;
+    margin-right: 10px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.tarjeta {
+    display: flex;
+    flex-shrink: 10;
+    margin: 10px 25px;
+    padding: 2px 10px 10px 10px;
+    text-align: left;
+    font-size: 20px;
+    color: yellow;
+    font-family: 'Work Sans';
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo {
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+}
+
+.desc {
+    display: flex;
+    flex-shrink: 10;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);
+    padding: 7px 7px 6px 8px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: 'Work Sans';
+}
+
+nav {
+    box-shadow: 0px 10px 8px rgb(0, 0, 0);
+    border-bottom: 1px solid yellow;
+    background-color: black;
+}
